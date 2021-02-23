@@ -1,0 +1,5 @@
+Cookies are small text files saved on the user’s browser. They are simple name=>value stores. Every cookie belongs to a particular website, and has an expiration and other rules about how the browser is supposed to use it (e.g., you can specify that a your cookie should be sent only over a secure connection). When you visit the same site again, if it has not expired, it is sent along with the request, and the server can use the information it holds.
+
+
+
+A “Session” is information, stored on the server, about a series of requests from the same client (user). With HTTP -web browsing- every request your browser makes starts with a “blank slate,” and knows absolutely nothing about previous requests. Session information is simply saved on the server, usually in a text file, sometimes in a database or some other storage. The server has to identify each user request in order to make sure it gets the right session information for it. 
